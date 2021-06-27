@@ -1,8 +1,8 @@
 class Level {
     private completed = false
     private currentLevel = 0
-    private images = ["../images/aap2.jpg", "../images/vos.jpg", "../images/haai.png"]
-    private background = ["../images/jungle.jpeg", "../images/savanna.jpeg", "../images/ocean.jpeg", "../images/beach.jpeg", "../images/plains.jpeg", "../images/underground.jpeg", "../images/sky.jpeg", "../images/forest.jpeg", "../images/ice.jpeg", "../images/tundra.jpeg"]
+    private images = ["./images/aap2.jpg", "./images/vos.jpg", "./images/haai.png"]
+    private background = ["./images/jungle.jpeg", "./images/savanna.jpeg", "./images/ocean.jpeg", "./images/beach.jpeg", "./images/plains.jpeg", "./images/underground.jpeg", "./images/sky.jpeg", "./images/forest.jpeg", "./images/ice.jpeg", "./images/tundra.jpeg"]
 
 
     private webserviceURL : string = '../webservice/index.php';

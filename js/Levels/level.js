@@ -3,8 +3,8 @@ class Level {
     constructor() {
         this.completed = false;
         this.currentLevel = 0;
-        this.images = ["../images/aap2.jpg", "../images/vos.jpg", "../images/haai.png"];
-        this.background = ["../images/jungle.jpeg", "../images/savanna.jpeg", "../images/ocean.jpeg", "../images/beach.jpeg", "../images/plains.jpeg", "../images/underground.jpeg", "../images/sky.jpeg", "../images/forest.jpeg", "../images/ice.jpeg", "../images/tundra.jpeg"];
+        this.images = ["./images/aap2.jpg", "./images/vos.jpg", "./images/haai.png"];
+        this.background = ["./images/jungle.jpeg", "./images/savanna.jpeg", "./images/ocean.jpeg", "./images/beach.jpeg", "./images/plains.jpeg", "./images/underground.jpeg", "./images/sky.jpeg", "./images/forest.jpeg", "./images/ice.jpeg", "./images/tundra.jpeg"];
         this.webserviceURL = '../webservice/index.php';
         this.answerA = document.getElementById("a");
         this.answerB = document.getElementById("b");
